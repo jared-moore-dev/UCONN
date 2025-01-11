@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="week2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ptrsub">
+				<Option output="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/cmake-build-debug/ptrsub" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 ptrsub"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ptrsub/fast">
+				<Option output="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/cmake-build-debug/ptrsub" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 ptrsub/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tab">
+				<Option output="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/cmake-build-debug/tab" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 tab"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tab/fast">
+				<Option output="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/cmake-build-debug/tab" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 tab/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="array">
+				<Option output="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/cmake-build-debug/array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 array"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="array/fast">
+				<Option output="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/cmake-build-debug/array" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 array/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chararray">
+				<Option output="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/cmake-build-debug/chararray" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 chararray"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chararray/fast">
+				<Option output="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/cmake-build-debug/chararray" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 chararray/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="struct">
+				<Option output="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/cmake-build-debug/struct" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 struct"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="struct/fast">
+				<Option output="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/cmake-build-debug/struct" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 struct/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="funcarray">
+				<Option output="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/cmake-build-debug/funcarray" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 funcarray"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="funcarray/fast">
+				<Option output="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/cmake-build-debug/funcarray" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 funcarray/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Lecture\ Codes/week2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/array.c">
+			<Option target="array"/>
+		</Unit>
+		<Unit filename="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/chararray.c">
+			<Option target="chararray"/>
+		</Unit>
+		<Unit filename="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/funcarray.c">
+			<Option target="funcarray"/>
+		</Unit>
+		<Unit filename="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/ptrsub.c">
+			<Option target="ptrsub"/>
+		</Unit>
+		<Unit filename="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/struct.c">
+			<Option target="struct"/>
+		</Unit>
+		<Unit filename="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/tab.c">
+			<Option target="tab"/>
+		</Unit>
+		<Unit filename="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

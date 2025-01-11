@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/week2.dir/array.c.o -o week2 

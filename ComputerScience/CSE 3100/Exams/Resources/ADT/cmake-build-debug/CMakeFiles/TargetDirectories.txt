@@ -1,0 +1,7 @@
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Exams/Resources/ADT/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Exams/Resources/ADT/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Exams/Resources/ADT/cmake-build-debug/CMakeFiles/strreverse.dir
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Exams/Resources/ADT/cmake-build-debug/CMakeFiles/queue.dir
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Exams/Resources/ADT/cmake-build-debug/CMakeFiles/BST.dir
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Exams/Resources/ADT/cmake-build-debug/CMakeFiles/stack.dir
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Exams/Resources/ADT/cmake-build-debug/CMakeFiles/ll.dir

@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/ll.dir/linkedlist.c.o -o ll 

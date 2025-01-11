@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/chararray.dir/chararray.c.o -o chararray 

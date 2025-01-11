@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/list.c
+list.h
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/list.h
+stdlib.h
+-
+stdio.h
+-
+assert.h
+-
+
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/list.h
+stdlib.h
+-
+

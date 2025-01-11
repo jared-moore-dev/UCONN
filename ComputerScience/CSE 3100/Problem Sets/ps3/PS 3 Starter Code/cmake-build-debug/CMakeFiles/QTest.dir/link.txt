@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/QTest.dir/list.c.o CMakeFiles/QTest.dir/LStack.c.o CMakeFiles/QTest.dir/queue.c.o CMakeFiles/QTest.dir/QTest.c.o -o QTest 

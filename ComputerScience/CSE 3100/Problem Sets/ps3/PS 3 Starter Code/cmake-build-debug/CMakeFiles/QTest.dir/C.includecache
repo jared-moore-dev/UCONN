@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/LStack.h
+list.h
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/list.h
+
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/list.h
+stdlib.h
+-
+
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/queue.c
+stdio.h
+-
+queue.h
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/queue.h
+
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/queue.h
+LStack.h
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/LStack.h
+

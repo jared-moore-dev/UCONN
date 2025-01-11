@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/tab.dir/tab.c.o -o tab 

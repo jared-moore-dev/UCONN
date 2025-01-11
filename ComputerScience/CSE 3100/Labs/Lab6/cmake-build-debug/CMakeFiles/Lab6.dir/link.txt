@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/Lab6.dir/Lab_6_Starter_Code/pipes.c.o -o Lab6 

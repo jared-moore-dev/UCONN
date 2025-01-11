@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/strreverse.dir/strreverse.c.o -o strreverse 

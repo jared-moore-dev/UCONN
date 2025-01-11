@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lab/Lab5/Lab 5 Starter Code/union.c
+stdio.h
+-
+stdlib.h
+-
+

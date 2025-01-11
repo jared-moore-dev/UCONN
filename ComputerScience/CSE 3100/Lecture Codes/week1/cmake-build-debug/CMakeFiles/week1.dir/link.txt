@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/week1.dir/powerIterRecur.c.o -o week1 

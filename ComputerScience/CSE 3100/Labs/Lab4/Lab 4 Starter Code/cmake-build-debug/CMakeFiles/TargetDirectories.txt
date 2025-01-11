@@ -1,0 +1,4 @@
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lab/Lab4/Lab 4 Starter Code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lab/Lab4/Lab 4 Starter Code/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lab/Lab4/Lab 4 Starter Code/cmake-build-debug/CMakeFiles/debug.dir
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lab/Lab4/Lab 4 Starter Code/cmake-build-debug/CMakeFiles/tree.dir

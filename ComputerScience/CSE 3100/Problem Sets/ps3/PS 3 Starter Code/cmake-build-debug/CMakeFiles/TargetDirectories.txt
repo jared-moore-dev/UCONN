@@ -1,0 +1,8 @@
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/cmake-build-debug/CMakeFiles/mimir.dir
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/cmake-build-debug/CMakeFiles/QTest.dir
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/cmake-build-debug/CMakeFiles/list.dir
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/cmake-build-debug/CMakeFiles/LStack.dir
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/cmake-build-debug/CMakeFiles/vector.dir
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/cmake-build-debug/CMakeFiles/VStack.dir

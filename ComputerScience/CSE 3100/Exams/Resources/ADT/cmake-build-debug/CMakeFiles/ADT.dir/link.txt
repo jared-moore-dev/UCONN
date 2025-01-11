@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/ADT.dir/queue.c.o -o ADT 

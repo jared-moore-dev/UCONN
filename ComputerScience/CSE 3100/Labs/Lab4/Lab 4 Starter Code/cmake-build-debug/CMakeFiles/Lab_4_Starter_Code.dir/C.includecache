@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lab/Lab4/Lab 4 Starter Code/debug.c
+stdio.h
+-
+stdlib.h
+-
+assert.h
+-
+string.h
+-
+
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lab/Lab4/Lab 4 Starter Code/tree.c
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+

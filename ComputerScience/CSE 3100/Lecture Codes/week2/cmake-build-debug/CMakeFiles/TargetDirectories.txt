@@ -1,0 +1,8 @@
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/cmake-build-debug/CMakeFiles/ptrsub.dir
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/cmake-build-debug/CMakeFiles/tab.dir
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/cmake-build-debug/CMakeFiles/array.dir
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/cmake-build-debug/CMakeFiles/chararray.dir
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/cmake-build-debug/CMakeFiles/struct.dir
+/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Lecture Codes/week2/cmake-build-debug/CMakeFiles/funcarray.dir

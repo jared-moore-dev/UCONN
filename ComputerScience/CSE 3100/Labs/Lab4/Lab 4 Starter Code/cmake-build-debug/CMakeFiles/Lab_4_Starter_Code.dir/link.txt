@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/Lab_4_Starter_Code.dir/debug.c.o CMakeFiles/Lab_4_Starter_Code.dir/tree.c.o -o Lab_4_Starter_Code 

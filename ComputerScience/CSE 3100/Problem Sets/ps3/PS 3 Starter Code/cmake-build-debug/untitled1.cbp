@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="untitled1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mimir">
+				<Option output="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/cmake-build-debug/mimir" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 mimir"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mimir/fast">
+				<Option output="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/cmake-build-debug/mimir" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 mimir/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="QTest">
+				<Option output="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/cmake-build-debug/QTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 QTest"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="QTest/fast">
+				<Option output="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/cmake-build-debug/QTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 QTest/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list">
+				<Option output="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/cmake-build-debug/list" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 list"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list/fast">
+				<Option output="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/cmake-build-debug/list" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 list/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LStack">
+				<Option output="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/cmake-build-debug/LStack" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 LStack"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LStack/fast">
+				<Option output="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/cmake-build-debug/LStack" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 LStack/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vector">
+				<Option output="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/cmake-build-debug/vector" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 vector"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vector/fast">
+				<Option output="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/cmake-build-debug/vector" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 vector/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VStack">
+				<Option output="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/cmake-build-debug/VStack" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 VStack"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VStack/fast">
+				<Option output="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/cmake-build-debug/VStack" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 VStack/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mastermind63/Documents/UCONN/Fall\ 2021/CSE3100/Homework/ps3/PS\ 3\ Starter\ Code/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/LStack.c">
+			<Option target="QTest"/>
+			<Option target="LStack"/>
+		</Unit>
+		<Unit filename="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/LStack.h">
+			<Option target="QTest"/>
+			<Option target="LStack"/>
+		</Unit>
+		<Unit filename="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/LStackTest.c">
+			<Option target="LStack"/>
+		</Unit>
+		<Unit filename="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/QTest.c">
+			<Option target="QTest"/>
+		</Unit>
+		<Unit filename="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/VStack.c">
+			<Option target="VStack"/>
+		</Unit>
+		<Unit filename="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/VStack.h">
+			<Option target="VStack"/>
+		</Unit>
+		<Unit filename="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/VStackTest.c">
+			<Option target="VStack"/>
+		</Unit>
+		<Unit filename="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/list.c">
+			<Option target="mimir"/>
+			<Option target="QTest"/>
+			<Option target="list"/>
+			<Option target="LStack"/>
+		</Unit>
+		<Unit filename="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/list.h">
+			<Option target="mimir"/>
+			<Option target="QTest"/>
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/listTest.c">
+			<Option target="list"/>
+		</Unit>
+		<Unit filename="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/mimirlist.c">
+			<Option target="mimir"/>
+		</Unit>
+		<Unit filename="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/queue.c">
+			<Option target="QTest"/>
+		</Unit>
+		<Unit filename="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/queue.h">
+			<Option target="QTest"/>
+		</Unit>
+		<Unit filename="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/vector.c">
+			<Option target="vector"/>
+			<Option target="VStack"/>
+		</Unit>
+		<Unit filename="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/vector.h">
+			<Option target="vector"/>
+		</Unit>
+		<Unit filename="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/vectorTest.c">
+			<Option target="vector"/>
+		</Unit>
+		<Unit filename="/home/mastermind63/Documents/UCONN/Fall 2021/CSE3100/Homework/ps3/PS 3 Starter Code/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
