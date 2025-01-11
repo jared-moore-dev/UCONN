@@ -1,0 +1,98 @@
+(define (selSort l)
+  (define (smallest l)
+    (define (smaller a b) (if (< a b) a b))
+    (if (null? (cdr l))
+        (car l)
+        (smaller (car l) (smallest (cdr l)))))
+  (define (remove v l)
+    (if (null? l)
+        l
+        (if (equal? v (car l))
+            (cdr l)
+            (cons (car l) (remove v (cdr l))))))
+  (if (null? l)
+      '()
+      (let* ((first (smallest l))
+             (rest (remove first l)))
+        (cons first (selSort rest)))))
+;1
+(define (change k l)
+  (let* ((ol (selSort l)))
+    (define (change-aux n ol)
+      (cond ((null? ol) 0)
+            ((< n 0) 0)
+            ((< (abs n) .0001) 1)
+            (else (+ (change-aux (- n (car ol)) ol)
+                     (change-aux n (cdr ol))))))
+    (change-aux k ol)))
+;2
+(define (make-change n den)
+  (let* ((ol (selSort den)))
+    (define (make-change-aux n ol cur)
+      (cond ((null? ol) '())
+            ((< n 0) '())
+            ((< (abs n) .0001) (cons cur (car ol)))
+            (else (+ (make-change-aux (- n (car ol)) ol cur)
+                     (make-change-aux n (cdr ol) cur)))))
+    (make-change-aux n ol '())))
+;3
+(define (rle coins)
+  (define (rle-help coins i)
+    (cond ((null? coins) '())
+          ((= (car coins) (cdr coins)) (rle-help (cdr coins) (+ i 1)))
+          (else (cons (cons i (car coins)) (rle-help (cdr coins) 0)))))
+  (rle-help coins 0))
+;4
+(define (rle-all lcoins)
+  (cond ((null? lcoins) '())
+        (else (cons (rle (car lcoins)) (rle-all (cdr lcoins))))))
+;5
+;a
+(define (list-sum l)
+  (cond ((null? l) 0)
+        (else (+ (car l) (list-sum (cdr l))))))
+;b
+(define (average l)
+  (* (/ 1 (length l)) (list-sum l)))
+;c
+(define (var-map l)
+  (let* ((avg (average l)))
+    (map (lambda (n) (expt (- n average) 2)) l)))
+;d
+(define (stdev l)
+  (sqrt (average (var-map l))))
+;e
+(define (map2 f x y)
+  (cond ((null? x) '())
+        (else (cons (f (cons (car x) (car y)))
+                    (map2 f (cdr x) (cdr y))))))
+;f
+(define (covar-elements x y)
+  (map2 stdev x y))
+;g
+(define (pearson x y)
+  (/ (average (covar-elements)) (* (stdev x) (stdev y))))
+;6
+;a
+(define (best-fit x y)
+  (let* ((a (* (pearson x y) (/ (stdev y) (stdev x))))
+         (b (- (average y) (* a (average x)))))
+    (cons a b)))
+;b
+(define (best-fit-fn px py)
+  (let* ((a (* (pearson x y) (/ (stdev y) (stdev x))))
+         (b (- (average y) (* a (average x)))))
+    (lambda (x) (+ (* a x) b))))
+;7
+(define (merge l l2)
+  (cond ((and (null? l) (null? l2)) '())
+        ((null? l) (cons (car l2) (merge l (cdr l2))))
+        ((null? l2) (cons (car l) (merge (cdr l) l2)))
+        ((> (car l) (car l2)) (cons (car l) (merge (cdr l) l2)))
+        ((< (car l) (car l2)) (cons (car l2) (merge l (cdr l2))))
+        (else (cons (car l) (merge (cdr l) l2)))))
+;8
+
+
+
+    

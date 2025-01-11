@@ -1,0 +1,16 @@
+;1
+(define (ins x l)
+  (cond ((null? l) (list x))
+        ((<= x (car l)) (cons x l))
+        (else (cons (car l) (ins x (cdr l))))))
+(ins 5 (list 1 2 4 6 8))
+;2
+(define (insSort ul)
+  (define (is-help ul l)
+    (cond ((null? ul) '())
+          (else (is-help (cdr ul) (ins (car ul) l)))))
+  (is-help ul '()))
+(insSort (list 1 4 2 5 6 3 9 5))
+;3
+(define (fold-right op init sl)
+  (op init (car sl)))

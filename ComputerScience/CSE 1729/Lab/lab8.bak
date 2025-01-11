@@ -1,0 +1,20 @@
+;givens
+(define (create-heap v H1 H2)
+  (list v H1 H2))
+(define (h-min H) (car H))
+(define (left H) (cadr H))
+(define (right H) (caddr H))
+
+;1
+(define (heap-insert f x H)
+  (if (null? H)
+      (create-heap x '() '())
+      (let ((child-value (max x (h-min H)))
+            (root-value (min x (h-min H))))
+        (cond ((f (left H) (right H))
+               (create-heap root-value
+                            (right H)
+                            (insert child-value (left H))))
+              (else (create-heap child-value
+                                 (left H)
+                                 (insert root-value (right H))))))))

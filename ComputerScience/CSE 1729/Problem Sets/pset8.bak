@@ -1,0 +1,20 @@
+;1
+;givens
+(define (make-tree value left right) (list value left right))
+(define (value tree) (car tree))
+(define (left tree) (cadr tree))
+(define (right tree) (caddr tree))
+;problem
+(define (arithvalue T)
+  (cond ((equal? (value T) #\*)
+         (* (arithvalue (left T)) (arithvalue (right T))))
+        ((equal? (value T) #\+)
+         (+ (arithvalue (left T)) (arithvalue (right T))))
+        ((equal? (value T) #\-)
+         (* -1 (arithvalue (left T))))
+        ((equal? (value T) #\/)
+         (/ 1 (arithvlaue (left T))))
+        (else (value T))))
+;2
+;3
+;4

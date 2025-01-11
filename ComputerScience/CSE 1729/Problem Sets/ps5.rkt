@@ -1,0 +1,71 @@
+;1
+;a
+(define (encode p)
+  (let* ((x (car p)) (y (cdr p)))
+    (cond
+      ((= x (max x y)) (+ (* x x) x y))
+      (else (+ (* y y) x))
+      )
+    )
+  )
+;b
+(define (decode z)
+  (let* ((flz (floor (sqrt z))))
+    (cond
+      ((< (- z (* flz flz)) flz)
+       (cons (- z (* flz flz)) flz))
+      (else (cons flz (- z (* flz flz) flz)))
+      )
+    )
+  )
+(decode 10)
+;2
+(define (real p)
+  (car p))
+(define (img p)
+  (cdr p))
+;a
+(define (sub-complex c d)
+  (cons (- (real c) (real d)) (- (img c) (img d))))
+;b
+(define (div-complex c d)
+  (let* ((a (real c)) (b (img c)) (c (real d)) (d (img d)) (deno (+ (* c c) (* d d))))
+    (cons (/ (+ (* a c) (* b d)) deno) (/ (- (* b c) (* a d)) deno))
+    )
+  )
+;3
+(define (sum-quadratic-roots a b c)
+  (cons (* -1 (car (div-complex b a))) (* -1 (cdr (div-complex b a))))
+  )
+(define (prod-quadratic-roots a b c)
+  (cond
+    ((and (pair? c) (pair? a)) (div-complex c a))
+    (else (/ c a))
+    )
+  )
+;b
+(define (sum-cubic-roots a b c d)
+  (cons (* -1 (car (div-complex b a))) (* -1 (cdr (div-complex b a)))))
+(define (sum-pairs-cubic-roots a b c d)
+  (div-complex c a))
+(define (prod-cubic-roots a b c d)
+  (cons (* -1 (car (div-complex d a))) (* -1 (cdr (div-complex d a)))))
+;4
+(define (zip list1 list2)
+  (if (null? list1)
+      '()
+      (cons (cons (car list1) (car list2))
+            (zip (cdr list1) (cdr list2)))))
+;5
+(define (unzip lop)
+  (define (car-help lop)
+    (if (null? lop)
+        '()
+        (cons (car (car lop))
+              (car-help (cdr lop)))))
+  (define (cdr-help lop)
+    (if (null? lop)
+        '()
+        (cons (cdr (car lop))
+              (cdr-help (cdr lop)))))
+  (cons (car-help lop) (cdr-help lop)))
