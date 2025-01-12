@@ -1,0 +1,5 @@
+SKU,Quantity,Price,Description
+4039,50,0.99,Water
+9100,5,14.99,Book
+1949,30,12.99,Car
+5199,7,4.99,Burrito

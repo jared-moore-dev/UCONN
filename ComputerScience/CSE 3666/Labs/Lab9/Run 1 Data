@@ -1,0 +1,21 @@
+(1) address: 0x10010000 (tag 0x00200200)  block range: 0-0
+   trying block 0 empty -- MISS
+(2) address: 0x10010004 (tag 0x00200200)  block range: 0-0
+   trying block 0 tag 0x00200200 -- HIT
+(3) address: 0x10010008 (tag 0x00200200)  block range: 0-0
+   trying block 0 tag 0x00200200 -- HIT
+(4) address: 0x1001000c (tag 0x00200200)  block range: 0-0
+   trying block 0 tag 0x00200200 -- HIT
+(5) address: 0x10010010 (tag 0x00200200)  block range: 1-1
+   trying block 1 empty -- MISS
+(6) address: 0x10010014 (tag 0x00200200)  block range: 1-1
+   trying block 1 tag 0x00200200 -- HIT
+(7) address: 0x10010018 (tag 0x00200200)  block range: 1-1
+   trying block 1 tag 0x00200200 -- HIT
+(8) address: 0x1001001c (tag 0x00200200)  block range: 1-1
+   trying block 1 tag 0x00200200 -- HIT
+(9) address: 0x10010020 (tag 0x00200200)  block range: 2-2
+   trying block 2 empty -- MISS
+(10) address: 0x10010024 (tag 0x00200200)  block range: 2-2
+   trying block 2 tag 0x00200200 -- HIT
+
